@@ -1,0 +1,62 @@
+.taskbar {
+  width: 100%;
+  height: 2.6rem;
+  background-color: rgb(26, 24, 24);
+  z-index: 10;
+  user-select: none;
+}
+
+img {
+  width: 1.5rem;
+}
+
+.task-container {
+  width: 100%;
+  height: 100%;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.start-left-side {
+  display: flex;
+}
+
+.start-center-side {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.icon {
+  width: fit-content;
+  height: 100%;
+}
+.search-icon img{
+   filter: var(--icon-filter);
+}
+
+.icon,
+.pin-app-icon {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.4rem;
+}
+
+.pinned-apps {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.pin-app-icon.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid #0078d7;
+}
+
+.pin-app-icon.minimized {
+  border-bottom: 3px solid #0078d7;
+  background-color: transparent;
+  opacity: 0.8;
+}

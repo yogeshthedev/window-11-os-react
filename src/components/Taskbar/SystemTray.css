@@ -1,0 +1,55 @@
+.system-tray-right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 0.2rem;
+}
+.arrow-icon {
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.arrow-icon img {
+  width: 12px;
+}
+
+.arrowimg{
+   filter: var(--icon-filter);
+}
+
+.arrow-icon:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.systems-icons {
+  gap: 0.6rem;
+  display: flex;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.systems-icons:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.systems-icons .ui-icon img {
+  filter: var(--icon-filter);
+  width: 15px;
+}
+
+.timeanddata {
+  padding: 0.2rem 0.4rem;
+}
+.timeanddata:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.timeanddata p {
+  font-size: 0.65rem;
+  color: var(--text-color);
+}

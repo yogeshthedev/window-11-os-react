@@ -1,0 +1,196 @@
+.startmenu {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.2rem;
+  z-index: 8;
+}
+
+.startmenu-container {
+  width: 40vw;
+  height: 80vh;
+  backdrop-filter: blur(30px);
+
+  background-color: var(--bg-color);
+
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-content {
+  padding: 1.5rem 3rem;
+}
+
+.pin-section .pin-top-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pin-top-btn {
+  display: flex;
+}
+
+.pin-section .pin-top-btn h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.pin-top-btn button {
+  color: var(--text-color);
+  background-color: var(--taskbar-color);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.pin-apps-list {
+  display: grid;
+  padding: 1.5rem 0;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.recommended-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.pin-apps-list .app {
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pin-apps-list .app:hover {
+  border-radius: 5px;
+  background-color: var(--bg-new-color);
+}
+
+.pin-apps-list .app .icon img {
+  width: 2rem;
+}
+
+.pin-apps-list .app .title {
+  font-size: 0.6rem;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--text-color);
+}
+
+.recommended-section h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.recommended-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recommended-app {
+  width: 50%;
+  display: flex;
+  padding: 0.8rem 0;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.recommended-app:hover {
+  background-color: var(--bg-new-color);
+  border-radius: 5px;
+}
+
+.recommended-app .title {
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
+
+.profile-content {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.profile-ic-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-ic-container .profile-name {
+  font-size: 0.9rem;
+}
+.profile-ic-container .profile-icon img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.profile-content .power-btn {
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.profile-content .power-btn:hover {
+  padding: 0.4rem;
+  cursor: pointer;
+   background-color: var(--bg-new-color);
+  border-radius: 2px;
+}
+
+.profile-content .power-btn img {
+  width: 20px;
+  filter: var(--icon-filter);
+}
+
+.profile-content .power-btn {
+  position: relative;
+}
+
+.profile-content .power-btn .power-option {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 6px;
+  background-color: var(--bg-new-color);
+  border-radius: 5px;
+  padding: 0.3rem 0;
+  min-width: 120px;
+  z-index: 10;
+  padding: 0.4rem 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.power-option .option {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.4rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.power-option .option:hover {
+  background: var(--bg-new-color);
+}
+
+.power-option .option p {
+  white-space: nowrap;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,56 @@
+.window-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-bottom: 0.8px solid var(--text-color);
+  outline: none;
+  cursor: grab;
+  user-select: none;
+}
+
+.win-first {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 0.6rem;
+}
+
+.win-first img {
+  width: 15px;
+}
+
+.win-first .window-header-title {
+  font-size: 12px;
+  margin: 0;
+}
+
+.window-actions-btn {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.window-actions-btn div {
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.window-actions-btn div img {
+  filter: var(--icon-filter);
+  width: 18px;
+  height: 18px;
+}
+
+.window-actions-btn div:hover {
+  background-color: var(--bg-new-color);
+}
+
+.ic-close:hover {
+  background: #c0392b !important;
+}

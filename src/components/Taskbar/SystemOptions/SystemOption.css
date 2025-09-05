@@ -1,0 +1,95 @@
+.smsyoption {
+  position: absolute;
+  bottom: 4rem;
+  left: -28%;
+  background-color: var(--bg-color);
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+.sm-container {
+  max-width: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+}
+.item {
+  width: fit-content;
+}
+
+.item img {
+  width: 20px;
+}
+
+.system-options {
+  right: 2rem;
+  padding: 1.4rem;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 4rem;
+  background-color: var(--bg-color);
+}
+
+.so-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+.so-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.heading {
+  white-space: nowrap;
+  font-size: 0.7rem;
+    color: var(--text-color);
+}
+.so-img {
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+  background-color: var(--bg-new-color);
+  cursor: pointer;
+}
+
+
+.so-img img {
+  width: 18px;
+  filter: var(--icon-filter);;
+}
+
+.so-indicator {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.indi-icon img {
+  width: 20px;
+  height: 20px;
+ filter: var(--icon-filter);
+}
+
+.indi-icon {
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.indi-icon input {
+  flex-grow: 1;
+}
+
+.indi-icon .volume-slider,
+.brightness-slider {
+  height: 0.2rem;
+}
+
+.indi-icon .volume-value,
+.brightness-value {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}

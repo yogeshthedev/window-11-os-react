@@ -1,0 +1,30 @@
+
+
+.desktop-icon-lable {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  transition: background 0.2s, border 0.2s;
+  padding: 0.4rem;
+  border-radius: 6px;
+}
+
+.desktop-icon-lable:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.desktop-icon-lable .dt-icon img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.desktop-icon-lable .lable {
+  font-size: 0.75rem;
+  color: white;
+  margin-top: 0.3rem;
+  text-shadow: 1px 1px 2px black;
+}

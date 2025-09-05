@@ -1,0 +1,14 @@
+.windows-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* It tells the browser: “Ignore this element when the user clicks or drags — let the clicks go through to whatever is underneath.” */
+  pointer-events: none; 
+  z-index: 9;
+}
+.windows-layer > * {
+  /* the layer itself is “transparent” to clicks, but each window inside can still be interacted with. */
+  pointer-events: auto;
+}

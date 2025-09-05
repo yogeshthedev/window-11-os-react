@@ -1,0 +1,32 @@
+.mainlayout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.mainlayout.light {
+  --bg-color: #e6edf8;
+  --text-color: #000;
+  --taskbar-color: #f2f2f2;
+  --bg-new-color: white;
+  --icon-filter: brightness(0);
+}
+
+.mainlayout.dark {
+  --bg-color: #1e1e1e;
+  --text-color: #fff;
+  --taskbar-color: rgb(26, 24, 24);
+  --icon-filter: brightness(0) invert(1);
+  --bg-new-color: rgba(255, 255, 255, 0.06);
+}
+
+.desktop {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.taskbar {
+  background-color: var(--taskbar-color);
+}
