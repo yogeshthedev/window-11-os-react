@@ -5,13 +5,13 @@ const SmallSystemOptions = () => {
     <div className="smsyoption">
       <div className="sm-container">
         <div className="item">
-          <img src="/public/icon/calculator.png" />
+          <img src="/icon/calculator.png" />
         </div>
         <div className="item">
-          <img src="/public/icon/spotify.png" />
+          <img src="/icon/spotify.png" />
         </div>
         <div className="item">
-          <img src="/public/icon/notepad.png" />
+          <img src="/icon/notepad.png" />
         </div>
       </div>
     </div>
