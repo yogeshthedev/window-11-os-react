@@ -84,16 +84,16 @@ const StartMenu = () => {
             {powerOption && (
               <div className="power-option">
                 <div className="option">
-                  <img src="/public/icon/lock.svg" />
+                  <img src="/icon/lock.svg" />
                   <p>Lock</p>
                 </div>
                 <div className="option">
-                  <img src="/public/icon/shut.svg" />
+                  <img src="/icon/shut.svg" />
                   <p>Shut down</p>
                 </div>
 
                 <div className="option">
-                  <img src="/public/icon/restart.svg" />
+                  <img src="/icon/restart.svg" />
                   <p>Restart</p>
                 </div>
               </div>
