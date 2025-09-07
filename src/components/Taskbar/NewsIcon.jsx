@@ -3,7 +3,7 @@ const NewsIcon = () => {
     <div className="start-left-side ">
       <div className="icon">
         {" "}
-        <img src="/public/icon/widget.png" alt="winodw 10 news button" />
+        <img src="/icon/widget.png" alt="winodw 10 news button" />
       </div>
     </div>
   );

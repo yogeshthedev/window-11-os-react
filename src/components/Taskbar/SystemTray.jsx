@@ -47,18 +47,18 @@ const SystemTray = () => {
     <div className="system-tray-right-side" style={{ position: "relative" }}>
       <div className="arrow-icon" onClick={() => dispatch(toggleHiddenItems())}>
         {hiddenItemValue && <SmallSystemOptions />}
-        <img className="arrowimg" src="/public/icon/arrow.svg" />
+        <img className="arrowimg" src="/icon/arrow.svg" />
       </div>
       {systemOptionValue && <SystemOptions />}
       <div className="systems-icons" onClick={handleSystemOption}>
         <div className="ui-icon">
-          <img src="/public/icon/ui/wifi.png" />
+          <img src="/icon/ui/wifi.png" />
         </div>
         <div className="ui-icon">
-          <img src="/public/icon/ui/audio3.png" />
+          <img src="/icon/ui/audio3.png" />
         </div>
           <div className="ui-icon">
-          <img src="/public/icon/ui/battery.png" />
+          <img src="/icon/ui/battery.png" />
         </div>
       </div>
       <div className="timeanddata">

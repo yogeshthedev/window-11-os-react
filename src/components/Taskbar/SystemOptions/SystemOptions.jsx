@@ -16,25 +16,25 @@ const SystemOptions = () => {
       <div className="so-container">
         <div className="so-icon">
           <div className="so-img">
-            <img src="/public/icon/ui/wifi.png" />
+            <img src="/icon/ui/wifi.png" />
           </div>
           <p className="heading">WiFi</p>
         </div>
         <div className="so-icon">
           <div className="so-img">
-            <img src="/public/icon/ui/bluetooth.png" />
+            <img src="/icon/ui/bluetooth.png" />
           </div>
           <p className="heading">Bluetooth</p>
         </div>
         <div className="so-icon">
           <div className="so-img">
-            <img src="/public/icon/ui/airplane.png" />
+            <img src="/icon/ui/airplane.png" />
           </div>
           <p className="heading">Flight Mode</p>
         </div>
         <div className="so-icon">
           <div className="so-img">
-            <img src="/public/icon/ui/saver.png" />
+            <img src="/icon/ui/saver.png" />
           </div>
           <p className="heading">Battery Saver</p>
         </div>
@@ -49,8 +49,8 @@ const SystemOptions = () => {
             <img
               src={
                 themeValue === "light"
-                  ? "/public/icon/ui/moon.png"
-                  : "/public/icon/ui/sun.png"
+                  ? "/icon/ui/moon.png"
+                  : "/icon/ui/sun.png"
               }
             />
           </div>
@@ -60,14 +60,14 @@ const SystemOptions = () => {
           <div className="so-img" style={
               nightValue  ? { backgroundColor: "#3386e4ff" } : {}
             } onClick={()=> dispatch(toggleNightLight())}>
-            <img src="/public/icon/ui/nightlight.png" />
+            <img src="/icon/ui/nightlight.png" />
           </div>
           <p className="heading">Night Light</p>
         </div>
       </div>
       <div className="so-indicator">
         <div className="indi-icon">
-          <img src="/public/icon/ui/brightness.png" />
+          <img src="/icon/ui/brightness.png" />
           <input
             type="range"
             min="0"
@@ -79,7 +79,7 @@ const SystemOptions = () => {
           <span className="brightness-value">{brightness}%</span>
         </div>
         <div className="indi-icon">
-          <img src="/public/icon/ui/audio3.png" />
+          <img src="/icon/ui/audio3.png" />
           <input
             type="range"
             min="0"

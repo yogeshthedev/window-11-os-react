@@ -10,7 +10,7 @@ const StartButton = () => {
     <div className="start-center-side ">
       <div className="icon" onClick={() => dispatch(toggleStartMenu())}>
         {" "}
-        <img src="/public/icon/home.png" alt="winodw 10 start button" />
+        <img src="/icon/home.png" alt="winodw 10 start button" />
       </div>
       <SearchBar />
       <PinnedApps/>

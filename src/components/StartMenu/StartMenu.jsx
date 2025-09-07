@@ -80,7 +80,7 @@ const StartMenu = () => {
             className="power-btn"
             onClick={() => dispatch(togglepowerOption())}
           >
-            <img src="/public/icon/ui/power.png" alt="" />
+            <img src="/icon/ui/power.png" alt="" />
             {powerOption && (
               <div className="power-option">
                 <div className="option">
