@@ -60,7 +60,7 @@ const desktopSlice = createSlice({
         id: nanoid(),
         appName: name,
         label: name,
-        icon: "/public/icon/win/folder.png",
+        icon: "/icon/win/folder.png",
         type: "folder",
       });
     },
