@@ -1,4 +1,4 @@
-import './SystemOption.css'
+import "./SystemOption.css";
 
 const SmallSystemOptions = () => {
   return (
