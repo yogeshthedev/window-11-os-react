@@ -32,7 +32,6 @@ const ContextMenu = () => {
               top: y,
               left: x,
               position: "absolute",
-              zIndex: "30",
             }
           : { display: "none" }
       }

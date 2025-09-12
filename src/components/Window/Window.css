@@ -30,6 +30,7 @@
   background: var(--bg-color);
 }
 
-.window-content h1 {
+.window-content h2 {
   color: var(--text-color);
+  font-size: 0.8rem;
 }
