@@ -4,9 +4,11 @@ import WindowHeader from "./WindowHeader";
 import { useDispatch } from "react-redux";
 import { focusWindow, moveResizeWindow } from "../../redux/slices/windowSlice";
 import { Rnd } from "react-rnd";
+import { appRegistry } from "../App-Content/appcontent";
 
 const Window = ({ window }) => {
   const dispatch = useDispatch();
+    const AppComponent = appRegistry[window.app];
 
   return (
     !window.minimized && (
@@ -54,7 +56,7 @@ const Window = ({ window }) => {
         />
 
         <div className="window-content">
-          <p>{window.app} content here</p>
+           {AppComponent ? <AppComponent /> : <h2>{window.app} not available</h2>}
         </div>
       </Rnd>
     )

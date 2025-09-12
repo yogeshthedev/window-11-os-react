@@ -4,7 +4,7 @@
   align-items: center;
   background: var(--bg-color);
   color: var(--text-color);
-  border-bottom: 0.8px solid var(--text-color);
+  
   outline: none;
   cursor: grab;
   user-select: none;
@@ -43,8 +43,8 @@
 
 .window-actions-btn div img {
   filter: var(--icon-filter);
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
 }
 
 .window-actions-btn div:hover {
