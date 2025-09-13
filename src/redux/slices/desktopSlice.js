@@ -5,8 +5,15 @@ const initialState = {
   icons: [
     {
       id: nanoid(),
-      appName: "Browser",
-      label: "Browser",
+      appName: "Camera",
+      label: "Camera",
+      icon: "/icon/camera.png",
+      type: "app",
+    },
+    {
+      id: nanoid(),
+      appName: "Edge",
+      label: "Edge",
       icon: "/icon/edge.png",
       type: "app",
     },
